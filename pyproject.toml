@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "console-bot-app"
+version = "0.1.0"
+description = ""
+authors = ["Weiss1985 <weiss1985@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiosqlite = "^0.19.0"
+prompt-toolkit = "3.0.41"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
